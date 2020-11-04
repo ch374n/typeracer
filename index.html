@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>TypeRacer</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap" rel="stylesheet">
+   <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:ital,wght@0,300;1,200&display=swap"
+      rel="stylesheet">
+</head>
+
+<body>
+   <div class="overlay">
+      <div class="congrats">
+         <div class="end_msg">
+            <h1 class="success">
+               Congrats! Your typing speed is <span class="wpm">80</span> wpm
+            </h1>
+            <div>
+               <button class="special_button">Play Again ? </button>
+            </div>
+         </div>
+         <div class="start_msg">
+            <h1 class="success">
+               Please be prepared. Good luck!
+            </h1>
+            <div class="button">
+               <button>START TYPING NOW</button>
+            </div>
+         </div>
+      </div>
+   </div>
+   <header class="main-header">
+      <h1 class="title">Improve your typing speed with our app</h1>
+   </header>
+   <section class="middle-section">
+      <div class="typing-section">
+         <div class="typing-part">
+            <p class="textarea"></p>
+         </div>
+         <div class="result-part">
+            <div class="speed">
+               <img src="https://cdn0.iconfinder.com/data/icons/video-kit-1/32/speed-512.png">
+               <h2>Speed</h2>
+            </div>
+            <p><span class="wpm">0</span> <span style="font-size: 20px;">wpm</span></p>
+            <div class="accuracy">
+               <img src="https://cdn.onlinewebfonts.com/svg/img_231546.png">
+               <h2>Accuracy</h2>
+            </div>
+            <p><span class='accuracy_perc'>0</span>%</p>
+            <div class="restart">
+               <img class="restart_img"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQgsQsqNQvA52J9BeDFh6vHKRjScZ9HwdWydQ&usqp=CAU">
+               <h2>Restart</h2>
+            </div>
+         </div>
+      </div>
+   </section>
+   <script src="script.js"></script>
+</body>
+
+</html>

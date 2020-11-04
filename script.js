@@ -32,7 +32,7 @@ function calculateWPM() {
 }
 
 function validKey(key) {
-    const regex = /^[\w "',;![\]()\.\-?]+$/i
+    const regex = /^[\w "',;![\]()\.\-?:<>@#$%^&*=\\~`+/]+$/i
     return (start && regex.test(key))
 }    
 

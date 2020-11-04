@@ -1,4 +1,4 @@
-const RANDOM_QUOTE_API_URL = 'http://api.quotable.io/random'
+const RANDOM_QUOTE_API_URL = 'http://cors.io/?http://api.quotable.io/random'
 const textarea      = document.querySelector('.textarea')
 const overlayEl     = document.querySelector('.overlay')
 const startMsg      = document.querySelector('.start_msg')
